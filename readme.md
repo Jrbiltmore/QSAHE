@@ -1,53 +1,70 @@
-# Visual Steganography: Embedding Encryption Methods and Codes in Graphics Files
+# Quantum-Secure Adaptive Hybrid Encryption (QSAHE) with Immutable NFTs
 
-This repository demonstrates a method of embedding encryption methods, codes, and decryption protocols into a graphics file using visual steganography. The goal is to hide sensitive information imperceptibly within the carrier image.
+Welcome to the Quantum-Secure Adaptive Hybrid Encryption (QSAHE) project repository! This project showcases an advanced implementation that combines the QSAHE encryption method, steganography, and immutable NFTs. This approach enhances security, authenticity, and uniqueness of hidden information within NFTs.
+
+## Overview
+
+The Quantum-Secure Adaptive Hybrid Encryption (QSAHE) method presents a novel approach to encryption, combining the strengths of symmetric, asymmetric, and quantum-safe cryptographic techniques. This advanced implementation goes beyond encryption and explores embedding encrypted data within immutable NFTs using steganography. This ensures secure storage, ownership authenticity, and resilience against quantum threats.
+
+## Created By
+
+Created By: Jacob Thomas Vespers  
+Email: [jttf@medusasec.com](mailto:jttf@medusasec.com)
+
+## Contents
+
+- [Introduction](#introduction)
+- [Method Overview](#method-overview)
+- [Technical Details](#technical-details)
+- [Benefits and Advantages](#benefits-and-advantages)
+- [Steganography: Embedding Encryption Methods and Codes](#steganography-embedding-encryption-methods-and-codes)
+- [Integration with Immutable NFTs](#integration-with-immutable-nfts)
+- [Advanced Implementation](#advanced-implementation)
+- [Usage and Demonstration](#usage-and-demonstration)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+
+Discover an innovative encryption method that addresses modern security challenges and quantum threats. Explore how encrypted data can be embedded within immutable NFTs, adding an extra layer of security and ownership authenticity.
 
 ## Method Overview
 
-### 1. Select a Carrier Image
+Learn about the components and benefits of the Quantum-Secure Adaptive Hybrid Encryption (QSAHE) method.
 
-Choose a suitable graphics file (JPEG, PNG, etc.) as the carrier image. Ensure the image can accommodate the hidden data without compromising its quality.
+## Technical Details
 
-### 2. Prepare Hidden Data
+Dive into the technical aspects of each component of the QSAHE method.
 
-Gather the encryption methods, codes, and decryption protocols you want to hide. Convert this data into a binary format suitable for embedding.
+## Benefits and Advantages
 
-### 3. LSB Embedding Strategy
+Understand the advantages of the QSAHE method, including security, efficiency, and scalability.
 
-Use the Least Significant Bit (LSB) embedding technique to hide the binary data within the carrier image. Replace the least significant bit of pixel color values with bits from the hidden data.
+## Steganography: Embedding Encryption Methods and Codes
 
-### 4. Embed Hidden Data
+Explore the technique of embedding encryption methods, codes, and decryption protocols into graphics files using steganography.
 
-1. Break the binary hidden data into smaller chunks.
-2. For each pixel in the carrier image, replace the least significant bit of a color component with a bit from the hidden data.
-3. Repeat this process until all hidden data is embedded.
+## Integration with Immutable NFTs
 
-### 5. Save Modified Graphics File
+Learn how the QSAHE method can be integrated with immutable NFTs, enhancing security and proving ownership authenticity.
 
-Save the modified graphics file containing the embedded hidden data. Ensure the file format and image quality remain close to the original.
+## Advanced Implementation
 
-### 6. Extraction and Decryption
+Discover the advanced implementation process, including generating NFTs, encrypting data, integrating steganography, and recording metadata.
 
-1. Load the modified carrier image.
-2. Extract the least significant bit from the color component of each pixel.
-3. Reconstruct the binary hidden data by assembling the extracted bits.
-4. Apply decryption protocols to retrieve the original encryption methods and codes.
+## Usage and Demonstration
 
-### 7. Considerations
+Run the advanced implementation scripts provided in this repository to experience QSAHE combined with NFTs and steganography.
 
-- Choose carrier images of appropriate sizes.
-- Modify least significant bits cautiously to avoid artifacts.
-- Encrypt hidden data before embedding.
-- Add noise or variations to further disguise the hidden data.
+## Contributing
 
-### 8. Testing and Optimization
+Contributions to this project are welcome! Review the [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
-Test the steganographic process with different images and hidden data to find the optimal balance between capacity and imperceptibility.
+## License
 
-## Example Implementation
-
-The `steganography.py` script in this repository provides a simple Python implementation of the described steganography process. Use it as a starting point to experiment with embedding and extracting hidden data.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Disclaimer
 
-Steganography is a technique with potential legal and ethical implications. Ensure you understand the legal context and intended usage before implementing or using steganography methods.
+Implementing advanced encryption, steganography, and NFT integration may have legal and ethical implications. Ensure you understand the context and intended usage before proceeding.
+
